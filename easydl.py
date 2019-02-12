@@ -15,9 +15,7 @@ from xml.etree import ElementTree as ET
 def inittoken():
 	cf = configparser.ConfigParser()
 	a = cf.read("easydl.conf")
-	print(a)
 	client_id = cf.get("token","client_id")
-	print(client_id)
 	client_secret = cf.get("token","client_secret")
 	host = 'https://aip.baidubce.com/oauth/2.0/token?grant_type=client_credentials&client_id='+client_id+'&client_secret='+client_secret
 	request = urllib.request.Request(host)
