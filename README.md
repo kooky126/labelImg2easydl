@@ -13,4 +13,4 @@ labelImg标记转Easydl物体检测模型数据集封装
 
 import easydl
 
-easydl.addentitybatch(20076,"C:\\Users\\KOOKY\\Desktop\\works")
+easydl.addentitybatch(20076,r"C:\\Users\\KOOKY\\Desktop\\works")
