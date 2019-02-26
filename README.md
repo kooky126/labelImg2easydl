@@ -11,6 +11,13 @@ labelImg标记转Easydl物体检测模型数据集封装
 
 代码基于python 3.6，不同版本请自行修改代码调试
 
+
+代码调用方式(参考test.py)
+
 import easydl
 
 easydl.addentitybatch(20076,r"C:\\Users\\KOOKY\\Desktop\\works")
+
+直接命令行方式
+
+python main.py -dataset_id 20076 -xmlpath C:\\Users\\KOOKY\\Desktop\\works
