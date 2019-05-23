@@ -21,3 +21,10 @@ easydl.addentitybatch(20076,r"C:\\Users\\KOOKY\\Desktop\\works")
 直接命令行方式
 
 python main.py -dataset_id 20076 -xmlpath C:\\Users\\KOOKY\\Desktop\\works
+
+
+________________________________________________________________
+
+自己的easydl数据集导出工具参见：
+
+https://github.com/kooky126/easydl2labelImg
